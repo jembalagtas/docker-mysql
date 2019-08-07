@@ -1,0 +1,9 @@
+CREATE TABLE `phone_service` (
+  `P_TRANSID` varchar(10) NOT NULL,
+  `ACCT_NUM` varchar(10) DEFAULT NULL,
+  `P_NUM` varchar(11) DEFAULT NULL,
+  `LOAD_AMT` int(4) DEFAULT NULL,
+  `TRANS_DATE` date DEFAULT NULL,
+  `P_TYPE` varchar(15) DEFAULT NULL,
+  PRIMARY KEY (`P_TRANSID`)
+)
